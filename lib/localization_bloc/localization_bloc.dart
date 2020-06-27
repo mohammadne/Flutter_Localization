@@ -20,6 +20,7 @@ class LocalizationBloc
       super.initialState ??
       LocalizationState(
         initialLocale.when(
+          //TODO: Have an async operation from intl package here
           systemLocale: () => Locale('en', 'US'),
           preferedLocale: (locale) => locale,
         ),
