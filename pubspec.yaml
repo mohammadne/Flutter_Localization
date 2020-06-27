@@ -1,0 +1,37 @@
+name: language_tester
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.8.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  flutter_localizations:
+    sdk: flutter
+  
+  freezed_annotation: ^0.11.0
+  flutter_bloc: ^4.0.1
+  hydrated_bloc: ^4.1.1
+  equatable: ^1.1.1
+
+
+dev_dependencies:
+  json_serializable: ^3.3.0
+  build_runner: ^1.10.0
+  freezed: ^0.11.2
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lang/en.json
+    - lang/fa.json

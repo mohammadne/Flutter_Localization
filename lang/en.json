@@ -1,0 +1,6 @@
+{
+  "first_string": "Hello! This is the first message.",
+  "second_string": {
+    "text": "second"
+  }
+}
